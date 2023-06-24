@@ -1,0 +1,15 @@
+.App {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial,sans-serif;
+ width: 600px;
+ }
+ .App h1 {
+  text-align: center;
+ }
+ .App footer {
+  font-size: 10px;
+  margin-left: 10px;
+ }
+

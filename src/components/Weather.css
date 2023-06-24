@@ -1,0 +1,35 @@
+.Weather {
+    border: 1px solid #dadde1;
+    margin: 5px 10px;
+    padding: 10px;
+    max-width: 600px;
+}
+.show-weather {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 50px;
+    max-width: 400px;
+    font-size: medium;
+    font-weight: normal;
+    }
+    .Weather li {
+        list-style: none;
+        
+    }
+    .Weather ul {
+        padding-left: 0;
+    }
+    .Weather .weather-description {
+       font-size: 12px;
+       color: #70757a;
+    }
+    .Weather p {
+            color: #202124;
+            font-size: 30px;
+            font-weight: 600;
+          
+    }
+    .Weather form {
+        display: flex;
+        justify-content: space-evenly;
+    }
