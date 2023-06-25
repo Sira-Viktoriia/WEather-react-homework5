@@ -14,6 +14,7 @@
     }
     .Weather li {
         list-style: none;
+        text-transform: capitalize;
         
     }
     .Weather ul {

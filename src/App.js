@@ -5,19 +5,25 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <Weather/>
+      <Weather defaultCity="Kyiv" />
       <footer>
-        This project was creater by {" "}
-        <a href="https://github.com/Sira-Viktoriia/weather-react-homework5" target="blank">
+        This project was creater by{" "}
+        <a
+          href="https://github.com/Sira-Viktoriia/weather-react-homework5"
+          target="blank"
+        >
           Sira Viktoriia
-        </a> {" "}
-        and is {" "}
-        <a href="https://github.com/Sira-Viktoriia/weather-react-homework5" target="blank">
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/Sira-Viktoriia/weather-react-homework5"
+          target="blank"
+        >
           open-sourced on GitHub
         </a>
       </footer>
-      </div>
-      );
+    </div>
+  );
 }
 
 export default App;
